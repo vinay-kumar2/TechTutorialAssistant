@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Tutorial Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Tech Tutorial Assistant</h1>
+            <p>Your personal guide to mastering technology and programming</p>
+        </div>
+        
+        <div id="chat-box">
+            
+        </div>
+        
+        <div class="input-area">
+            <input type="text" id="user-input" placeholder="Ask me about programming, web development, AI, or any tech topic..." autofocus>
+            <button id="send-button">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M22 2L11 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M22 2L15 22L11 13L2 9L22 2Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+        </div>
+        
+        <div class="footer">
+            <p class="disclaimer">Your AI-powered tech tutor. Learn programming, web development, AI, and more with interactive tutorials and real-time assistance.</p>
+        </div>
+
+        <div class="animation-controls">
+            <button id="animation-toggle" class="animation-toggle">
+                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5M17.6859 17.69L18.5 18.5M21 12H20M12 7C14.7614 7 17 9.23858 17 12C17 14.7614 14.7614 17 12 17C9.23858 17 7 14.7614 7 12C7 9.23858 9.23858 7 12 7Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+            <div class="animation-menu">
+                <button class="animation-option" data-animation="snow">❄ Snow</button>
+                <button class="animation-option" data-animation="rain">🌧️ Rain</button>
+                <button class="animation-option" data-animation="fire">🔥 Fire</button>
+                <button class="animation-option" data-animation="stars">⭐ Stars</button>
+                <button class="animation-option" data-animation="asteroids">☄️ Asteroids</button>
+                <button class="animation-option" data-animation="none">❌ None</button>
+            </div>
+        </div>
+
+        <button id="theme-switcher" class="theme-switcher">
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5M17.6859 17.69L18.5 18.5M21 12H20M12 7C14.7614 7 17 9.23858 17 12C17 14.7614 14.7614 17 12 17C9.23858 17 7 14.7614 7 12C7 9.23858 9.23858 7 12 7Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
